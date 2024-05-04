@@ -11,5 +11,6 @@ router.get("/:id", studentController.getStudentById);
 router.patch("/:id", studentController.updateStudent);
 
 router.post("/insert", studentController.insertStudent);
+// router.post("/insertFakeStudents", studentController.insertFakeStudents);
 
 export default router;
